@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <table cellpadding="10">
+      <tr>
+        <td>
+          <h2>Mail Id:</h2>
+        </td>
+        <td>
+          <a href="mailto:abhinhavkumar2000@gmail.com"
+            >abhinhavkumar2000@gmail.com</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Phone No:</h2>
+        </td>
+        <td>9350258260</td>
+      </tr>
+    </table>
+    <hr />
+    <!-- get method is used when aap input ko current action url hai mentioned uspe bhej ke koi result lena chahte ho  -->
+
+    <!-- <form action="action url" method="get">
+      <label>Name: <input name="Submitted-Name" autocomplete="name" /> </label>
+      <button>Save</button>
+    </form> -->
+
+    <!-- post method is used when aap input ko current action url hai mentioned uspe bhej ke koi result store karate ho -->
+    <br /><br />
+    <!-- Yha thora alg sa chij implement karna start hua hai -->
+    <form action="mailto:" method="post" enctype="text/plain">
+      <label
+        >Your Name:
+        <input type="text" name="Submitted-Name" autocomplete="name" value="" />
+      </label>
+      <br /><br />
+
+      <label
+        >Your email:
+        <input
+          type="email"
+          name="Submitted-email"
+          autocomplete="email"
+          value=""
+        />
+      </label>
+      <br /><br />
+
+      <label
+        >Your Message: <br /><br />
+
+        <textarea name="YourMessage" rows="10" cols="40"> </textarea>
+        <br />
+      </label>
+      <br /><br />
+
+      <button>Submit</button>
+    </form>
+    <br />
+
+    <br />
+  </body>
+</html>
