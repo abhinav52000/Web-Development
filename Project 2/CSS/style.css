@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+hr {
+  /* background: white; */
+  /* border-radius: 50%; */
+  border-width: 10px;
+  border-style: none;
+  border-color: grey;
+  size: 5px;
+  border-top-style: dotted;
+  /* height: 3px; */
+  width: 5%;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+.top {
+  position: relative;
+  background-color: #eaf6f6;
+  width: 100%;
+  display: block;
+  padding-top: 150px;
+}
+
+.leftbird {
+  position: relative;
+  left: 15%;
+}
+
+.rightbird {
+  position: absolute;
+  /* right: 10%; */
+}
+
+.mountain {
+  margin-top: 100px;
+  position: relative;
+  zoom: 70%;
+  /* width: 60%; */
+  display: inline;
+}
